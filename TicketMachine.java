@@ -25,7 +25,7 @@ public class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(Integer ticketCost)
+ TicketMachine(Integer ticketCost)
     {
         price = ticketCost;
         balance = 0;
@@ -39,6 +39,7 @@ public class TicketMachine
     public Integer getPrice()
     {
         return price;
+        
     }
     
     /**
